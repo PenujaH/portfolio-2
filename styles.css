@@ -188,6 +188,59 @@ nav p{
     object-fit: cover;
 }
 
+.blog{
+    margin-left: 25px;
+    margin-top: 60px;
+}
+
+.blog-title{
+    font-weight: 700;
+    font-size: 23px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.blog-intro{
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.article{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    border-bottom: 1px solid #1f293731;
+}
+
+.article-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-title{
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.article svg{
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.article-date{
+    font-size: 14px;
+    margin: 0;
+}
+
+
 @media (min-width: 900px) {
 
     main{

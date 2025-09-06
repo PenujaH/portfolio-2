@@ -140,6 +140,8 @@ nav p{
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -238,6 +240,15 @@ nav p{
 .article-date{
     font-size: 14px;
     margin: 0;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 30px;
+    bottom: 0;
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: center;
 }
 
 
